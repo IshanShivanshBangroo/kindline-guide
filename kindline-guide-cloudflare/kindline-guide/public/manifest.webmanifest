@@ -1,0 +1,10 @@
+{
+  "name": "KindLine Guide",
+  "short_name": "KindLine",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f7fb",
+  "theme_color": "#2f5bdb",
+  "description": "A bounded, uncertainty-aware support tool for reflective coping practice.",
+  "icons": []
+}

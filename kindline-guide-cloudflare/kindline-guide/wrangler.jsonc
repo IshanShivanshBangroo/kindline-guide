@@ -1,0 +1,14 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "kindline-guide",
+  "compatibility_date": "2026-03-08",
+  "pages_build_output_dir": "./public",
+  "ai": {
+    "binding": "AI"
+  },
+  "vars": {
+    "APP_NAME": "KindLine Guide",
+    "MODEL_NAME": "@cf/zai-org/glm-4.7-flash",
+    "DEFAULT_THRESHOLD": "0.62"
+  }
+}
