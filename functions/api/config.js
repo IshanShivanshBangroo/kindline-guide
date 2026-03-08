@@ -1,7 +1,7 @@
 import { listInterventions } from '../../lib/interventions.js';
 
 export async function onRequestGet(context) {
-  const model = context.env.MODEL_NAME || '@cf/zai-org/glm-4.7-flash';
+  const model = context.env.MODEL_NAME || '@cf/meta/llama-3.1-8b-instruct-fast';
   return Response.json({
     app: {
       name: context.env.APP_NAME || 'KindLine Guide',
