@@ -5,7 +5,6 @@
 KindLine Guide is a bounded, uncertainty-aware support tool for reflective coping practice. It is meant for public demonstration, rapid evaluation, and research prototyping in human-centered AI. The core claim is simple: a public-facing support system should not behave like an open-ended assistant and then hope for the best. It should stay inside scope, expose its safety logic, and make evaluation straightforward.
 
 This version is built for **Cloudflare Pages + Pages Functions + Workers AI** so that:
-
 1. the site has a normal public URL,
 2. the model runs on the backend,
 3. no API key is exposed in the browser,
@@ -123,13 +122,12 @@ Read `DEPLOY.md` and follow it exactly. The short version is:
 3. Use `public` as the build output directory.
 4. Confirm the Workers AI binding is named `AI`.
 5. Deploy.
+Deployment check
 
 ## What the evaluation panel is doing
-
 The built-in evaluation endpoint runs a small fixed suite of cases through the same backend gate used by the live demo. It is not a substitute for a real benchmark, but it gives a reviewer a direct way to inspect how the gate behaves on obvious crisis, medical, and benign prompts.
 
 ## What this project does not claim
-
 This is not a clinical system, not a therapy replacement, and not a crisis service. The public version should be positioned as a bounded support and evaluation tool. If you later want to study real users, storage, consent, and human-subjects review need to be handled properly.
 
 ## Suggested next research steps
